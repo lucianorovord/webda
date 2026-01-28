@@ -16,6 +16,5 @@ jobs:
           script: |
             set -e
             cd /var/www/html/webda
-            git config --global --add safe.directory /var/www/html/webda
             git pull
             
